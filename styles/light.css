@@ -1,12 +1,33 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --bg-image: var(--bg-image-light);
+
+  --bg-color: var(--white-pink);
+  --title-color: var(--pink);
+  --accent-color: var(--dark-pink);
+  --accent-color-decor: var(--gray);
+  --accent-text: var(--gray);
+  --subtitle-color: var(--gray);
+  --main-text-color: var(--gray);
+}
+
+.theme-light .header__decor {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-image: var(--bg-image-light);
+
+    --bg-color: var(--white-pink);
+    --title-color: var(--pink);
+    --accent-color: var(--dark-pink);
+    --accent-color-decor: var(--gray);
+    --accent-text: var(--gray);
+    --subtitle-color: var(--gray);
+    --main-text-color: var(--gray);
+  }
+
+  .header__decor {
+    display: none;
+  }
 }

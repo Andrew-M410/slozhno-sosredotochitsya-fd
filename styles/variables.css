@@ -1,4 +1,24 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --bg-image-dark: url("../images/cover-image-dark.png");
+  --bg-image-light: url("../images/cover-image-light.png");
+
+  --dark-blue: #000028;
+  --purple: #db00ff;
+  --coral-red: #ff0070;
+  --light-pink: #f1b2ce;
+
+  --white-pink: #ffeef6;
+  --pink: #ffc2e6;
+  --dark-pink: #ff8dcb;
+  --gray: #353430;
+ 
+  /*Авто тема*/
+  --bg-image: var(--bg-image-dark);
+  --bg-color: var(--dark-blue);
+  --title-color: var(--purple);
+  --accent-color: var(--coral-red);
+  --accent-color-decor: var(--coral-red);
+  --accent-text: var(--dark-blue);
+  --subtitle-color: var(--coral-red);
+  --main-text-color: var(--light-pink);
+}
