@@ -9,3 +9,7 @@
   --subtitle-color: var(--coral-red);
   --main-text-color: var(--light-pink);
 }
+
+.theme-dark .header__decor {
+  display: block;
+}
