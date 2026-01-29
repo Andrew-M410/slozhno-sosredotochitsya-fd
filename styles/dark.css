@@ -5,6 +5,7 @@
   --title-color: var(--purple);
   --accent-color: var(--coral-red);
   --accent-color-decor: var(--coral-red);
+  --accent-color-hover: rgba(255, 0, 112, 0.4);
   --accent-text: var(--dark-blue);
   --subtitle-color: var(--coral-red);
   --main-text-color: var(--light-pink);

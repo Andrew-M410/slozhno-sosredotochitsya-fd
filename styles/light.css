@@ -5,6 +5,7 @@
   --title-color: var(--pink);
   --accent-color: var(--dark-pink);
   --accent-color-decor: var(--gray);
+  --accent-color-hover: rgba(50, 49, 45, 0.4);
   --accent-text: var(--gray);
   --subtitle-color: var(--gray);
   --main-text-color: var(--gray);
@@ -22,6 +23,7 @@
     --title-color: var(--pink);
     --accent-color: var(--dark-pink);
     --accent-color-decor: var(--gray);
+    --accent-color-hover: rgba(50, 49, 45, 0.4);
     --accent-text: var(--gray);
     --subtitle-color: var(--gray);
     --main-text-color: var(--gray);
